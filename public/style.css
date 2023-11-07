@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: 'Playfair+Display', sans-serif;
+}
+
+body {
+    background: #EFC3E6;
+    color: #9C89B8;
+    overflow: hidden;
+    overflow-y: scroll;
+}
