@@ -1,7 +1,8 @@
 .navbar {
+    background: #EFC3E6;
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
+    /* max-width: 100rem; */
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -16,6 +17,10 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
+    font-family: 'Yeseva One', sans-serif;
+    font-size: 3rem;
+    color: #ffff00;
+    border: none;
 }
 
 .desktopMenuListItem {

@@ -1,0 +1,35 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skillTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 3rem;
+    margin: 1.5rem;
+}
+
+ul {
+    margin-bottom: 1.25rem;
+    overflow:hidden;
+}
+
+li {
+    line-height: 6em;
+    display:inline;
+    margin: 8rem;
+}
+
+
+.skillBarImg {
+    height: 8rem;
+    width: auto;
+}

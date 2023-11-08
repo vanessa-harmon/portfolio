@@ -8,7 +8,7 @@ import {Link} from 'react-scroll';
 function Navbar() {
   return (
     <nav className='navbar'>
-      <img src={logo} alt="logo" className='logo'/>
+      <button className='logo'>VH.</button>
       <div className='desktopMenu'>
         <Link className="desktopMenuListItem">Home</Link>
         <Link className="desktopMenuListItem">About</Link>
