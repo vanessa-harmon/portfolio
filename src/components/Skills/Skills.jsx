@@ -13,21 +13,16 @@ import docker from '../../assets/docker.png';
 const Skills = () => {
   return (
     <section id='skills'>
-        <span className="skillTitle">My Skills</span>
-        <span className="skillDescription"></span>
+        <span className="skillTitle">Tech stack</span>
         <div className="skillBars">
-            <ul>
-                <li><img src={html} alt="html" className="skillBarImg" /></li>
-                <li><img src={dj} alt="django" className="skillBarImg" /></li>
-                <li><img src={react} alt="html" className="skillBarImg" /></li>
-                <li><img src={postgresql} alt="html" className="skillBarImg" /></li>
-            </ul>
-            <ul>
-                <li><img src={css} alt="css" className="skillBarImg" /></li>
-                <li><img src={restfulapi} alt="html" className="skillBarImg" /></li>
-                <li><img src={fastapi} alt="html" className="skillBarImg" /></li>
-                <li><img src={docker} alt="html" className="skillBarImg" /></li>
-            </ul>
+            <img src={html} alt="html" className="skillBarImg" />
+            <img src={dj} alt="django" className="skillBarImg" />
+            <img src={react} alt="html" className="skillBarImg" />
+            <img src={postgresql} alt="html" className="skillBarImg" />
+            <img src={css} alt="css" className="skillBarImg" />
+            <img src={restfulapi} alt="html" className="skillBarImg" />
+            <img src={fastapi} alt="html" className="skillBarImg" />
+            <img src={docker} alt="html" className="skillBarImg" />
         </div>
     </section>
   )

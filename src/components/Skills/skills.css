@@ -8,28 +8,29 @@
     justify-content: center;
     text-align: center;
     margin: 0 auto;
+    color: #9C89B8;
 }
 
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
-    padding: 3rem;
+    margin: 1.5rem 0 0;
+}
+
+.skillBars {
     margin: 1.5rem;
-}
-
-ul {
-    margin-bottom: 1.25rem;
-    overflow:hidden;
-}
-
-li {
-    line-height: 6em;
-    display:inline;
-    margin: 8rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: center;
 }
 
 
 .skillBarImg {
-    height: 8rem;
+    height: 10rem;
     width: auto;
+    padding: 2rem;
+}
+
+.skillBarImg:hover {
+    box-shadow: #ffff00;
 }

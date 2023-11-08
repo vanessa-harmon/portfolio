@@ -4,11 +4,11 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Playfair Display', sans-serif; 
 }
 
 body {
-    background: #EFC3E6;
+    background: #EFC3E6 !important;
     color: #9C89B8;
     overflow: hidden;
     overflow-y: scroll;
