@@ -3,7 +3,7 @@
     height: 5rem;
     width: 100%;
     margin: 0;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -17,7 +17,7 @@
     object-fit: cover;
     height: 3rem;
     width: 4rem;
-    margin: 2rem;
+
     font-family: 'Yeseva One', sans-serif;
     font-size: 3rem;
     color: #ffff00;
