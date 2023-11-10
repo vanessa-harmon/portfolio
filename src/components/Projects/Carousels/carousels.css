@@ -1,0 +1,43 @@
+.project-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+}
+
+.projectsImg {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0.5rem;
+    max-width: 100%;
+}
+
+.slider .carousel-item.active {
+    color: #ffff00;
+    padding-bottom: 0.5rem;
+    border-bottom: none;
+  }
+
+.carousel-inner::after {
+    display: none;
+}
+
+.carousel-inner > .item {
+    height: 400px;
+    width: 400px;
+ }
+
+
+@media screen and (max-width:585px) {
+    .projectsImg {
+        height: 48vw;
+    }
+
+    .carousel-inner > .carousel-item {
+        height: 48vw; /* Adjust the height for smaller screens if needed */
+    }
+}

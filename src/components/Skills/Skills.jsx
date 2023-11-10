@@ -1,13 +1,13 @@
 import React from 'react';
 import './skills.css';
-import html from '../../assets/html.png';
-import css from '../../assets/CSS.png';
-import dj from '../../assets/django.png';
-import restfulapi from '../../assets/restfulapi.png';
-import react from '../../assets/react.png';
-import fastapi from '../../assets/FastAPI.png';
-import postgresql from '../../assets/postgresql.png';
-import docker from '../../assets/docker.png';
+import html from '../../assets/techstack/html.png';
+import css from '../../assets/techstack/CSS.png';
+import dj from '../../assets/techstack/django.png';
+import restfulapi from '../../assets/techstack/restfulapi.png';
+import react from '../../assets/techstack/react.png';
+import fastapi from '../../assets/techstack/FastAPI.png';
+import postgresql from '../../assets/techstack/postgresql.png';
+import docker from '../../assets/techstack/docker.png';
 
 
 const Skills = () => {

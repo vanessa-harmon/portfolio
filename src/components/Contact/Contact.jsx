@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.css';
-import FacebookIcon from '../../assets/facebook.png';
+import FacebookIcon from '../../assets/facebook-icon.png';
+import GitHubIcon from '../../assets/github.png';
 import LinkedInIcon from '../../assets/linkedin.png';
 
 
@@ -34,9 +35,12 @@ const Contact = () => {
                 <textarea className="msg" name="message" rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className="submitBtn">Submit</button>
                 <div className="links">
-                {/* <a href="https://www.facebook.com/justsimplyness" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/justsimplyness" target="_blank" rel="noopener noreferrer">
                     <img src={FacebookIcon} alt="Facebook" className="link" />
-                </a> */}
+                </a>
+                <a href="https://github.com/vanessa-harmon" target="_blank" rel="noopener noreferrer">
+                    <img src={GitHubIcon} alt="GitHub" className="link" />
+                </a>
                 <a href="https://www.linkedin.com/in/vanessa-harmon/" target="_blank" rel="noopener noreferrer">
                     <img src={LinkedInIcon} alt="LinkedIn" className="link" />
                 </a>
