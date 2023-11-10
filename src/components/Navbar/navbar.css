@@ -1,8 +1,8 @@
 .navbar {
     background: #EFC3E6;
     height: 5rem;
-    width: 100vw;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
     padding: 1rem 2rem;
     display: flex;
     flex-wrap: nowrap;
