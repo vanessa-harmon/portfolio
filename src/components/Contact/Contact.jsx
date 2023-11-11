@@ -30,8 +30,8 @@ const Contact = () => {
             <h1 className="contactPageTitle">Contact Me</h1>
             <span className="contactDesc">Please fill out the form below to discuss any work oppurtunities.</span>
             <form ref={form} onSubmit={sendEmail} className="contactForm">
-                <input type="text" className="name" placeholder='Your name' />
-                <input type="email" className="email" placeholder='Your Email' />
+                <input type="text" className="name" name="from_name" placeholder='Your name' />
+                <input type="email" className="email" name="from_email" placeholder='Your Email' />
                 <textarea className="msg" name="message" rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className="submitBtn">Submit</button>
                 <div className="links">
