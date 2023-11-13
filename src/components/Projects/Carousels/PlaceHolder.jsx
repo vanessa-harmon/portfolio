@@ -6,7 +6,7 @@ import './carousels.css';
 
 const PlaceHolder = () => {
   return (
-    <Carousel className="projectsImg">
+    <Carousel className="project-carousel">
     <Carousel.Item>
     <img className="projectsImg" src={image1} alt="First slide" />
       <Carousel.Caption>

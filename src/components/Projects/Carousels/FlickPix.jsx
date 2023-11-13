@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import FlickPixHomePage from '../../../assets/flickpix/flickpixhome.png';
 import movies from '../../../assets/flickpix/movies.png';
@@ -9,9 +9,14 @@ import watchLater from '../../../assets/flickpix/watchlater.png';
 import searchResults from '../../../assets/flickpix/searchresults.png';
 import './carousels.css';
 
-const FlickPix = () => {
+const FlickPix = ({ onShow }) => {
+  const [activeProject, setActiveProject] = useState(3);
+
+  const handleCarouselClick = () => {
+    onShow(activeProject);
+  };
   return (
-    <Carousel className="project-carousel">
+    <Carousel className="project-carousel" onClick={handleCarouselClick} onSelect={(index, e) => setActiveProject(index + 1)}>
     <Carousel.Item>
     <img className="projectsImg" src={FlickPixHomePage} alt="First slide" />
       <Carousel.Caption>

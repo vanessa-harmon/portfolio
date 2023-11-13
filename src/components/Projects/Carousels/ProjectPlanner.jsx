@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel';
-import '../projects.css';
 import login from '../../../assets/projectplanner/login.png';
 import myProjects from '../../../assets/projectplanner/myprojects.png';
 import projectDetail from '../../../assets/projectplanner/projectdetail.png';
@@ -10,9 +9,14 @@ import notesDetail from '../../../assets/projectplanner/notesdetail.png';
 import projectSearch from '../../../assets/projectplanner/searchprojects.png';
 import './carousels.css';
 
-const ProjectPlanner = () => {
+const ProjectPlanner = ({ onShow }) => {
+  const [activeProject, setActiveProject] = useState(1);
+
+  const handleCarouselClick = () => {
+    onShow(activeProject);
+  };
   return (
-    <Carousel className="projectsImg">
+    <Carousel className="project-carousel" onClick={handleCarouselClick} onSelect={(index, e) => setActiveProject(index + 1)}>
           <Carousel.Item>
           <img className="projectsImg" src={login} alt="First slide" />
           </Carousel.Item>
@@ -34,7 +38,7 @@ const ProjectPlanner = () => {
           <Carousel.Item>
           <img className="projectsImg" src={projectSearch} alt="Seventh slide" />
           </Carousel.Item>
-        </Carousel>
+    </Carousel>
   )
 }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import homepage from '../../../assets/astralautohaven/home.png';
 import salespeople from '../../../assets/astralautohaven/salespeople.png';
@@ -9,9 +9,14 @@ import addsale from '../../../assets/astralautohaven/newsale.png';
 import './carousels.css';
 
 
-const AstralAutoHaven = () => {
+const AstralAutoHaven = ({ onShow }) => {
+  const [activeProject, setActiveProject] = useState(2);
+
+  const handleCarouselClick = () => {
+    onShow(activeProject);
+  };
   return (
-    <Carousel className="project-carousel">
+    <Carousel className="project-carousel" onClick={handleCarouselClick} onSelect={(index, e) => setActiveProject(index + 1)}>
     <Carousel.Item>
     <img className="projectsImg" src={homepage} alt="First slide" />
     </Carousel.Item>

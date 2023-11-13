@@ -23,6 +23,12 @@
     border: none;
 }
 
+.desktopMenu {
+    display: flex;
+    flex-grow: 1; /* Add this to make the flex items take up the available space */
+    justify-content: center; /* Center the items horizontally */
+}
+
 .desktopMenuListItem {
     margin: 2.75rem;
     cursor: pointer;

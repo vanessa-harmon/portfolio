@@ -4,10 +4,11 @@ This portfolio website showcases personal software development projects I have w
 
 ## Functionality
 
-The portfolio site consists of three sections:
+The portfolio site consists of  sections:
 - Intro - Introduces who I am and my background with a profile picture.
 - Projects - Showcases 4 of my completed development projects. For each project, includes a description, key learnings, technologies used, and links to the live site and code.
-- Skills/Tech stack - Highlights my technical skills across the full stack including frontend, backend, and other areas. I
+- Skills/Tech stack - Highlights my technical skills across the full stack including frontend, backend, and other areas.
+- Contact - A contact form and social media links
 
 Additional Functionality:
 
@@ -21,4 +22,4 @@ Additional Functionality:
 - React Hooks
 - CSS
 - Boostrap
-
+- Emailjs

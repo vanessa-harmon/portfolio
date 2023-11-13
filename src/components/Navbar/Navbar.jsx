@@ -13,8 +13,8 @@ function Navbar() {
       <button className='logo'>VH.</button>
       <div className='desktopMenu'>
         <Link activeClass='navactive' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
-        <Link activeClass='navactive' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Projects</Link>
         <Link activeClass='navactive' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Skills</Link>
+        <Link activeClass='navactive' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Projects</Link>
       </div>
       <button className='desktopMenuBtn' onClick={() => {
         document.getElementById('contactPage').scrollIntoView({behavior:'smooth'});
