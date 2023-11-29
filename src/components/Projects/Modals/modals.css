@@ -17,3 +17,27 @@
 .techStack {
     margin: 0.5rem;
 }
+
+.closeBtn {
+    background: #EFC3E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    border-color: #9C89B8;
+    border-style: solid;
+    color: #9C89B8;
+}
+
+.closeBtn:hover, .closeBtn.active {
+    background: #F0E6EF;
+    border: none;
+    color: #9C89B8;
+}
+
+.closeBtn:active,
+.closeBtn.active {
+    background-color: #F0E6EF !important;
+    color: #9C89B8 !important;
+}

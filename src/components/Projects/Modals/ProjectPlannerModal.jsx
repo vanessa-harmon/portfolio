@@ -39,7 +39,7 @@ const ProjectPlannerModal = (props) => {
 
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button className='closeBtn' onClick={props.onHide}>Close</Button>
       </Modal.Footer>
     </Modal>
   );
